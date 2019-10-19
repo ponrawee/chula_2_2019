@@ -8,7 +8,7 @@ The data were scraped on 19 October 2019, 00.23 a.m. They may not be up-to-date.
 The course data are scraped using [Puppeteer](https://github.com/GoogleChrome/puppeteer/). They classified based on the faculties they are taught in, from 01, the Sirindhorn Thai Institute, to 99 Other Universities. At the time of scraping 56 (School of Integrated Innovation) and 58 (Sasin Business School). They are stored in subdirectories of the `data` directory, whose names are faculty numbers. 
 
 ### Structure of the JSON
-Data are stored separatedly for each course in JSON format. The structure of the JSON is as follows:
+Data are stored separatedly for each course in JSON format with the name `${course number}.json`. The structure of the JSON is as follows:
 
 ```
 {

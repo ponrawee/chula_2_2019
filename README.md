@@ -50,6 +50,7 @@ To do the scraping yourself, simple configure `scrape.js` by setting the faculty
 Then, run Node
 
 ```bash
+npm install
 node scrape.js
 ```
 Kindly send me a pull request if you have scraped a more recent version of the schedule, or if you find a problem with the script.

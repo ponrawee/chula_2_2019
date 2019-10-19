@@ -1,5 +1,5 @@
 # CU course schedules (academic semester 2/2019)
-This repository contains course schedule data for semester 2/2019 for two-semester programs from the publicly available website o fOffice of Registrar, Chulalongkorn University. 
+This repository contains course schedule data for semester 2/2019 for two-semester programs from the publicly available website of Office of Registrar, Chulalongkorn University. 
 
 ## Last scraped
 The data were scraped on 19 October 2019, 00.23 a.m. They may not be up-to-date. 
@@ -10,7 +10,7 @@ The course data are scraped using [Puppeteer](https://github.com/GoogleChrome/pu
 ### Structure of the JSON
 Data are stored separatedly for each course in JSON format. The structure of the JSON is as follows:
 
-```JSON
+```
 {
   "thName": Course name in Thai,
   "enName": Course name in English,
@@ -29,7 +29,7 @@ Data are stored separatedly for each course in JSON format. The structure of the
 ```
 Schedule data have the following format:
 
-```JSON
+```
 {
   Section number: [{
     "method": Teaching method for that section,

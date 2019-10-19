@@ -12,19 +12,19 @@ Data are stored separatedly for each course in JSON format. The structure of the
 
 ```JSON
 {
-  'thName': Course name in Thai,
-  'enName': Course name in English,
-  'code': Course number,
-  'abbr': Course name abbreviation,
-  'fac': Faculty name,
-  'dept': Department/Section name,
-  'credit': Credit (integer),
-  'cHrs1': Detailed breakdown of the credit (1st line),
-  'cHrs2': Detailed breakdown of the credit (2nd line),
-  'prereq': Prerequisites and conditions for the course,
-  'midtermDate': Date of the midterm exam in the format [Date in Thai (C.E.), Start time, End time] , or "TDF" (To be declared by faculty),
-  'finalDate': Date of the final exam , or "TDF" (To be declared by faculty),
-  'schedule': Schedule data
+  "thName": Course name in Thai,
+  "enName": Course name in English,
+  "code": Course number,
+  "abbr": Course name abbreviation,
+  "fac": Faculty name,
+  "dept": Department/Section name,
+  "credit": Credit (integer),
+  "cHrs1": Detailed breakdown of the credit (1st line),
+  "cHrs2": Detailed breakdown of the credit (2nd line),
+  "prereq": Prerequisites and conditions for the course,
+  "midtermDate": Date of the midterm exam in the format [Date in Thai (C.E.), Start time, End time] , or "TDF" (To be declared by faculty),
+  "finalDate": Date of the final exam , or "TDF" (To be declared by faculty),
+  "schedule": Schedule data
 }
 ```
 Schedule data have the following format:
@@ -32,13 +32,13 @@ Schedule data have the following format:
 ```JSON
 {
   Section number: [{
-    'method': Teaching method for that section,
-    'day': Day of the week in which the period takes place,
-    'period': Start and end time of each period,
-    'building': Building,
-    'room': Room,
-    'instructor': Instructor abbreviated name,
-    'note': Note, usually indicating student body exclusiveness and gen-ed status of the course
+    "method": Teaching method for that section,
+    "day": Day of the week in which the period takes place,
+    "period": Start and end time of each period,
+    "building": Building,
+    "room": Room,
+    "instructor": Instructor abbreviated name,
+    "note": Note, usually indicating student body exclusiveness and gen-ed status of the course
   }, ...],
   ...
 }
